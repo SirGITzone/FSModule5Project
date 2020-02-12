@@ -47,7 +47,7 @@ class Inspiration(models.Model):
         related_name="inspired_works",
     )
 
-    def __str__(self):
-        return self.inspirer
+    # def __str__(self):
+    #     return self.author
 
 
